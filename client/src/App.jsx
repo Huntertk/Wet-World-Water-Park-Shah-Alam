@@ -23,6 +23,7 @@ import ConfirmBooking from './pages/ConfirmBooking'
 import {useSelector} from 'react-redux'
 import ErrorPage from './pages/ErrorPage'
 import ManageDates from './pages/adminPage/ManageDates'
+import BookTypeOneDate from './pages/adminPage/BookTypeOneDate'
 
 const App = () => {
   const {responseClientUrl} = useSelector(state => state.booking)
@@ -46,6 +47,7 @@ const App = () => {
           <Route element={<AdminLayout />}>
             <Route path="/admin/all-booking" element={<AllBookings />} />
             <Route path="/admin/manage-dates" element={<ManageDates />} />
+            <Route path="/admin/manage-dates/booktype-one" element={<BookTypeOneDate />} />
             <Route path="/admin/confirmed-booking" element={<ConfirmedBooking />} />
             <Route path="/admin/completed-booking" element={<CompletedBooking />} />
             <Route path="/admin/pending-booking" element={<PendingBooking />} />

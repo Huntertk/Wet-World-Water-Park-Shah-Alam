@@ -6,5 +6,5 @@ const datesSchema = new mongoose.Schema({
     }
 }, {timestamps: true})
 
-const BlockeDates = mongoose.model('BlockDate', datesSchema)
-export default BlockeDates
+const BookTypeOneDateBlock = mongoose.model('BookTypeOneDateBlock', datesSchema)
+export default BookTypeOneDateBlock

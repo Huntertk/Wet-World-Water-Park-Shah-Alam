@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { authAdmin } from "../middlewares/authMiddleware.js";
-import { addBlockDates, deleteBlockedDate, getAllBlockDates } from "../controllers/datesController.js";
+import { addBlockDates, deleteBlockedDate, getAllBlockDates } from "../controllers/bookTypeOneDateController.js";
 
 const router = Router()
 

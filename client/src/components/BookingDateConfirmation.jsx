@@ -98,8 +98,6 @@ const BookingDateConfirmation = () => {
         const [calenderOpen, setCalenderOpen] = useState(false)
         const [blockedDates, setBlockedDates] = useState([])
         const disabledDates = blockedDates?.map((dates) => new Date(dates.blockDates))
-        // console.log(disabledDates[0]?.setHours(0,0,0,0));
-        // console.log(new Date(Date.now() + 1000 *60*60*24).setHours(0,0,0,0));
        
 
         const disabledDays = [
@@ -108,14 +106,17 @@ const BookingDateConfirmation = () => {
 
           const getBlockDates = async () => {
             try {
-                const {data} = await axios.get('/api/v1/dates-manage/block-dates')
+                const {data} = await axios.get('/api/v1/booktype-one-dates-manage/block-dates')
                 setBlockedDates(data.blockDates)
               } catch (error) {
                   console.log(error);
               }
           }
         useEffect(() => {
-            getBlockDates()
+            if(type === 'bookTypeOne'){
+                getBlockDates()
+                return
+            }
           },[selectedDate])
 
         if(!type){
