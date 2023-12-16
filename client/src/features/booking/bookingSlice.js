@@ -24,7 +24,8 @@ const initialState = {
     totalBookingsCount: 0,
     bookingDay: "",
     bookingId:"",
-    bookingTitle:""
+    bookingTitle:"",
+    pricing:{}
 }
 
 
@@ -57,13 +58,13 @@ const bookingSlice = createSlice({
             state.seniorCount = state.seniorCount - 1
         },
         adultTotalAmount: (state) => {
-            state.adultTotal = state.adultCount *  99
+            state.adultTotal = state.adultCount *  state.pricing.adult
         },
         childTotalAmount: (state) => {
-            state.childTotal = state.childCount *  78
+            state.childTotal = state.childCount *  state.pricing.child
         },
         seniorTotalAmount: (state) => {
-            state.seniorTotal = state.seniorCount *  78
+            state.seniorTotal = state.seniorCount *  state.pricing.senior
         },
         countTotalBookingAmount: (state, action) => {
             state.totalAmount = state.adultTotal + state.childTotal + state.seniorTotal
@@ -111,7 +112,8 @@ const bookingSlice = createSlice({
         },
         choosingBooking: (state, action) => {
             state.type = action.payload.type
-            state.bookingTitle = action.payload.title
+            state.bookingTitle = action.payload.title,
+            state.pricing = action.payload.pricing
         },
         settingBookingResponse: (state, action) => {
             state.bookingResponse = ""

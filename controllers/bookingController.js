@@ -173,7 +173,7 @@ export const successBooking = async (req, res, next) => {
                                                                         <table cellpadding="0" cellspacing="0" width="100%">
                                                                             <tbody>
                                                                                 <tr>
-                                                                                    <td align="center" class="esd-block-image" style="font-size: 0px;"><a target="_blank"><img class="adapt-img" src="https://i.postimg.cc/L8xSc0rf/gallery-desktop-7.png" alt style="display: block;" width="455"></a></td>
+                                                                                    <td align="center" class="esd-block-image" style="font-size: 0px;"><a target="_blank"><img class="adapt-img" src="https://i.postimg.cc/PJFZRm7v/10694340-463343210471369-8153309622589055542-o.jpg" alt style="display: block;" width="455"></a></td>
                                                                                 </tr>
                                                                             </tbody>
                                                                         </table>
@@ -246,7 +246,7 @@ export const successBooking = async (req, res, next) => {
                                                                                         <table cellpadding="0" cellspacing="0" width="100%">
                                                                                             <tbody>
                                                                                                 <tr>
-                                                                                                    <td align="center" class="esd-block-image" style="font-size: 0px;"><a target="_blank"><img class="adapt-img" src="https://i.postimg.cc/htdDCsFR/splashmania-newtagline-2022-2.png" alt style="display: block;" height="200" width-"150"></a></td>
+                                                                                                    <td align="center" class="esd-block-image" style="font-size: 0px;"><a target="_blank"><img class="adapt-img" src="https://i.postimg.cc/4NNB2PYy/5-Kiddy-Typoon-Lagoon.jpg" alt style="display: block;" height="200" width-"150"></a></td>
                                                                                                 </tr>
                                                                                             </tbody>
                                                                                         </table>

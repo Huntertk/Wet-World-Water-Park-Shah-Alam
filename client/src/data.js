@@ -17,7 +17,11 @@ export const cardData = [
         title:"Wet World Water Park Shah Alam",
         desc:"From slippery slides and tube rides to pirate-themed splash pools, Malaysia's largest water park chain has much to offer and your ticket includes full access to all the rides and attractions.",
         type:"bookTypeOne",
-        price: 113,
+        pricing: {
+            adult:32,
+            child:29,
+            senior:29
+        },
 
     },
     
