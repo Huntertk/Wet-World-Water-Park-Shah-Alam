@@ -39,8 +39,8 @@ export const createBooking = async (req, res) => {
                 },
             ],
             mode: 'payment',
-            success_url: `https://splash-mania-waterpark.onrender.com/${responseClientUrl}`,
-            cancel_url: 'https://splash-mania-waterpark.onrender.com/',
+            success_url: `https://wet-world-waterpark.onrender.com/${responseClientUrl}`,
+            cancel_url: 'https://wet-world-waterpark.onrender.com/',
             payment_intent_data: {
                 setup_future_usage: 'off_session',
                 description: 'Booking payment',
