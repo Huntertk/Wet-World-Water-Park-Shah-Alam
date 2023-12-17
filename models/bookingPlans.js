@@ -12,6 +12,11 @@ const bookingPlanSchema = new mongoose.Schema({
     },
     image:{
         type:[String]
+    },
+    pricing:{
+        adult: Number,
+        child: Number,
+        senior: Number,
     }
 }, {timestamps: true})
 
