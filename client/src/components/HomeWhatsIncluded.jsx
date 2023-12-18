@@ -16,32 +16,27 @@ const HomeWhatsIncluded = () => {
             </div>
         </div>
         <div className="whatsincludedSubContainer">
-            <h1>Included</h1>
-            <div className="content">
-                <FaCheck  />
-                <p>1 Entrance ticket for Wet World Park, Shah Alam</p>
-            </div>
+            <h1>Inclusions</h1>
+            <ul className="content">
+                <li>1 Entrance ticket for Wet World Park, Shah Alam</li>
+            </ul>
         </div>
         <div className="whatsNotincludedSubContainer">
-        <h1>Not Included</h1>
+        <h1>Exclusions</h1>
         <div className="contentContainer">
 
-            <div className="content">
-                <RxCross2 />
-                <p>Locker</p>
-            </div>
-            <div className="content">
-                <RxCross2 />
-                <p>Tube</p>
-            </div>
-            <div className="content">
-                <RxCross2 />
-                <p>Meals</p>
-            </div>
-            <div className="content">
-                <RxCross2 />
-                <p>Parking</p>
-            </div>
+            <ul className="content">
+                <li>Locker</li>
+            </ul>
+            <ul className="content">
+                <li>Tube</li>
+            </ul>
+            <ul className="content">
+                <li>Meals</li>
+            </ul>
+            <ul className="content">
+                <li>Parking</li>
+            </ul>
         </div>
         </div>
     </section>

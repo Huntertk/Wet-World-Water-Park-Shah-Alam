@@ -19,13 +19,15 @@
             margin-top: 10px;
             display: flex;
             gap: 10px;
+            padding-left: 1rem;
             p{
                 margin:0;
                 font-size: 1rem;
             }
 
-            p{
+            li{
                 font-size: 1rem;
+                color:#aaa;
             }
             svg{
                 font-size: 2rem;
@@ -49,9 +51,11 @@
                 align-items: center;
                 gap: 5px;
                 margin-top: 10px;
-                p{
+                padding-left: 1rem;
+                li{
                     font-size: 1rem;
                     margin:0;
+                    color:#aaa;
                 }
                 p{
                     font-size: 1.1rem;
