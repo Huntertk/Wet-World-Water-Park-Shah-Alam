@@ -66,7 +66,6 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            gap: 10px;
             .content{
                 display: flex;
                 align-items: center;
@@ -77,9 +76,6 @@
                     font-size: 1rem;
                     margin:0;
                     color:#aaa;
-                }
-                p{
-                    font-size: 1.1rem;
                 }
                 svg{
                     font-size: 1.4rem;
