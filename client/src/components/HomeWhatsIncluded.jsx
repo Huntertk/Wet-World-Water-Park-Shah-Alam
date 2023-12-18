@@ -8,7 +8,7 @@ import { BiSolidDollarCircle } from 'react-icons/bi';
 const HomeWhatsIncluded = () => {
   return (
     <section className='whatsincludedContainer'>
-         <div className="whatsincludedSubContainer">
+         <div className="cancellationSubContainer">
             <h1>Cancellation policy</h1>
             <div className="content">
                 <BiSolidDollarCircle  />
@@ -18,7 +18,7 @@ const HomeWhatsIncluded = () => {
         <div className="whatsincludedSubContainer">
             <h1>Inclusions</h1>
             <ul className="content">
-                <li>1 Entrance ticket for Wet World Park, Shah Alam</li>
+                <li>Admission to Wet World Waterpark Shah Alam</li>
             </ul>
         </div>
         <div className="whatsNotincludedSubContainer">
@@ -32,10 +32,10 @@ const HomeWhatsIncluded = () => {
                 <li>Tube</li>
             </ul>
             <ul className="content">
-                <li>Meals</li>
+                <li>Food and Drinks</li>
             </ul>
             <ul className="content">
-                <li>Parking</li>
+                <li>Rental of Cubana</li>
             </ul>
         </div>
         </div>

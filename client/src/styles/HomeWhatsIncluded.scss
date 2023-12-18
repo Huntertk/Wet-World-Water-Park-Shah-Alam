@@ -9,6 +9,27 @@
     padding: 0 0.5rem;
     gap: 10px;
 
+    .cancellationSubContainer{
+        width: 250px;
+        margin: 1rem 0 0 0;
+        padding: 1rem 0.5rem;
+        background-color: $primaryModalColor;
+        border-radius: 10px;
+        .content{
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            p{
+                margin:0;
+                font-size: 1rem;
+            }
+            svg{
+                font-size: 2rem;
+                color: #04d438;
+            }
+        }
+
+    }
     .whatsincludedSubContainer{
         width: 250px;
         margin: 1rem 0 0 0;
@@ -30,7 +51,7 @@
                 color:#aaa;
             }
             svg{
-                font-size: 2rem;
+                font-size: 3rem;
                 color: #04d438;
             }
         }
