@@ -24,18 +24,11 @@ const HomeWhatsIncluded = () => {
         <div className="whatsNotincludedSubContainer">
         <h1>Exclusions</h1>
         <div className="contentContainer">
-
-            <ul className="content">
-                <li>Locker</li>
-            </ul>
-            <ul className="content">
-                <li>Tube</li>
-            </ul>
-            <ul className="content">
+        <ul className="content">
                 <li>Food and Drinks</li>
             </ul>
             <ul className="content">
-                <li>Rental of Cabana</li>
+                <li>Rental of Cabana, Tube and Lockers</li>
             </ul>
         </div>
         </div>
