@@ -35,7 +35,7 @@ const HomeWhatsIncluded = () => {
                 <li>Food and Drinks</li>
             </ul>
             <ul className="content">
-                <li>Rental of Cubana</li>
+                <li>Rental of Cabana</li>
             </ul>
         </div>
         </div>
