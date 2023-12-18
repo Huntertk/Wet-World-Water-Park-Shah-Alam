@@ -8,6 +8,7 @@ import {BiSolidDollarCircle} from 'react-icons/bi'
 import { Link, useNavigate } from 'react-router-dom';
 import {useDispatch} from 'react-redux'
 import { choosingBooking, countTotalBookingAmount } from '../features/booking/bookingSlice';
+import HomeWhatsIncluded from './HomeWhatsIncluded';
 
 const Calender = ({id}) =>{
     const [selectedDate, setSelectedDate] = useState(false)
@@ -77,13 +78,16 @@ const HomeCard = ({data}) => {
                 }} className='checkAvailability'>
                     Book Now
                 </button>
-            <div className="cancelPolicy">
+            {/* <div className="cancelPolicy">
                 <BiSolidDollarCircle />
                 <div className="cancelPolicyContent">
                     <p>Cancellation policy</p>
                     <span>These tickets can't be cancelled or rescheduled.</span>
                 </div>
+            </div> */}
             </div>
+            <div className="extra">
+                <HomeWhatsIncluded />
             </div>
         </div>
   )

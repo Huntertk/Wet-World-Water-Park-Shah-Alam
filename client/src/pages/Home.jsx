@@ -26,7 +26,7 @@ const Home = () => {
      <section className='homeMainContainer'>
       <HomeTopContainer />
       <HomeCardContainer />
-      <HomeWhatsIncluded />
+      {/* <HomeWhatsIncluded /> */}
       <HomeWhyVisit />
       {/* <HomWhatIsTheBest /> */}
       <HomeHighlights />
