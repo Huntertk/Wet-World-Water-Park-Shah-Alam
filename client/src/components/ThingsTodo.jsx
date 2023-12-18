@@ -20,7 +20,7 @@ const Cards = () => {
 const ThingsTodo = () => {
   return (
     <section className='HomeBuffetOptionMainContainer'>
-        <h1>Highlights Splash Mania WaterPark</h1>
+        <h1>Highlights Wet World Water Park Shah Alam</h1>
         <div className="cardMainContainer">
             <Cards />
         </div>

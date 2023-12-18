@@ -57,7 +57,7 @@ const BookTypeOneDate = () => {
 
   return (
     <div className='mainDateManageContainer'>
-        <h1>Tickets to Genting SkyWorld Outdoor Theme Park <br /> Date Manage</h1>
+        <h1>Wet World Water Park Shah Alam <br /> Date Manage</h1>
         <DayPicker
                 defaultMonth={new Date(Date.now())}
                 mode="single"

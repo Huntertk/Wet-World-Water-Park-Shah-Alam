@@ -8,11 +8,12 @@ import HomeVisitorTips from './HomeVisitorTips'
 import HomeFaq from './HomeFaq'
 import HomeMap from './HomeMap'
 import HomeAdditionalInformation from './HomeAdditionalInformation'
-
+import HomeWhatsIncluded from './HomeWhatsIncluded'
 export {
     HomeTopContainer,
     HomeCardContainer,
     HomeWhyVisit,
+    HomeWhatsIncluded,
     HomWhatIsTheBest,
     HomeHighlights,
     HomeVisitorTips,

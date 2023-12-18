@@ -1,0 +1,46 @@
+@use '../styles/variables.scss' as *;
+
+.whatsincludedContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+
+    .whatsincludedSubContainer{
+        margin: 1rem 0 0 0;
+        .content{
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+
+            p{
+                font-size: 1.1rem;
+            }
+            svg{
+                font-size: 1.4rem;
+                color: #04d438;
+            }
+        }
+    }
+    .whatsNotincludedSubContainer{
+        margin: 1rem 0 0 0;
+
+        .contentContainer{
+
+            .content{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                p{
+                    font-size: 1.1rem;
+                }
+                svg{
+                    font-size: 1.4rem;
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+}

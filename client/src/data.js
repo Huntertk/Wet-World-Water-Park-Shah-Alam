@@ -78,21 +78,6 @@ export const thingsTodo = [
 export const addQues = [
     {
         id: uuidv4(),
-        ques:"WHAT'S INCLUDED ? ",
-        ans:["1 Entrance ticket for Wet World Park, Shah Alam"]
-    },
-    {
-        id: uuidv4(),
-        ques:"WHAT'S EXCLUDED?",
-        ans:[
-            "Locker",
-            "Tube",
-            "Meals",
-            "Parking"
-        ]
-    },
-    {
-        id: uuidv4(),
         ques:"Operating Hours ?",
         ans:[
             "Thursday - Tuesday : 10am - 6pm", 

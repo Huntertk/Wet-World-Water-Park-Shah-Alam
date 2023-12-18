@@ -8,7 +8,8 @@ import {
     HomeVisitorTips,
     HomeFaq,
     HomeMap,
-    HomeAdditionalInformation
+    HomeAdditionalInformation,
+    HomeWhatsIncluded
 } from '../components/index'
 import ThingsTodo from '../components/ThingsTodo'
 import { initialRender } from '../features/booking/bookingSlice'
@@ -25,6 +26,7 @@ const Home = () => {
      <section className='homeMainContainer'>
       <HomeTopContainer />
       <HomeCardContainer />
+      <HomeWhatsIncluded />
       <HomeWhyVisit />
       {/* <HomWhatIsTheBest /> */}
       <HomeHighlights />
