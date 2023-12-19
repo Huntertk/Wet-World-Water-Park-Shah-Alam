@@ -127,12 +127,12 @@ export const homeFAQ = [
     },
     {
         id: uuidv4(),
-        ques:"⦁	How long can I stay inside Wet World Park Shah Alam?",
+        ques:"How long can I stay inside Wet World Park Shah Alam?",
         ans:"You may stay as long as you want, no time limit."
     },
     {
         id: uuidv4(),
-        ques:"⦁	When does Wet World Park Shah Alam close?",
+        ques:"When does Wet World Park Shah Alam close?",
         ans:"Wet World Park Shah Alam is close every Wednesday except Public Holiday and School Holiday."
     },
     {
